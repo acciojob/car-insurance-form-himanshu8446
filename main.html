@@ -7,21 +7,20 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-	    <form action="method">
+	  <form action="method">
     <label for="name">Name</label>
-    <input type="text" id="name">
+    <input type="text" id="name" required>
     <br>
     <label for="email">Email</label>
     
-    <input type="email" id="email">
+    <input type="email" id="email" required>
     <br>
-    <label for="gender">Gender:</label>
-    Male<input type="radio" name="gender" id="male">
-    Female<input type="radio" name="gender" id="female">
+    Gender:
+    <label for="male">Male</label><input type="radio" name="gender" id="male">
+    <label for="female">Female</label><input type="radio" name="gender" id="female">
     <br>
-    <label for="Carbrands">Car Brands</label>
-    <select name="Carbrands" id="cars">
+    <label for="cars">Car Brands</label>
+    <select name="Carbrands" id="cars" required>
         <option value="BMW">BMW</option>
         <option value="Audi">Audi</option>
         <option value="Mercedez">Mercedez</option>
@@ -29,10 +28,10 @@
     <br>
     <label for="dop">Date of Purchase</label>
     
-    <input type="date" class="dop">
+    <input type="date" id="dop" required>
     <br>
     <label for="password">Password</label>
-    <input type="password" id="password">
+    <input type="password" id="password" required>
     <br>
     <input type="submit" name="Submit" id="submit">
 
